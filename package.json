@@ -1,0 +1,40 @@
+{
+    "name": "turbo-lksms",
+    "version": "1.0.0",
+    "description": "企业信使短信平台;http://www.ytysms.cn/",
+    "main": "./dist/index.js",
+    "scripts": {
+        "dev": "nodemon --config nodemon.json ./index.ts",
+        "dev:debug": "nodemon --config nodemon.json --inspect-brk ./index.ts",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/ziguilp/turbo-lksms.git"
+    },
+    "keywords": [
+        "企业信使短信平台"
+    ],
+    "author": "turbo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ziguilp/turbo-lksms/issues"
+    },
+    "homepage": "https://github.com/ziguilp/turbo-lksms#readme",
+    "dependencies": {
+        "axios": "^1.2.1",
+        "crypto-js": "^4.1.1",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.4",
+        "qs": "^6.11.0"
+    },
+    "devDependencies": {
+        "@types/crypto-js": "^4.1.1",
+        "@types/lodash": "^4.14.191",
+        "@types/node": "^18.11.16",
+        "@types/qs": "^6.9.7",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.4"
+    }
+}
